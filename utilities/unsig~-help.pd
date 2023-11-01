@@ -1,0 +1,12 @@
+#N canvas 352 140 405 272 12;
+#X text 13 26 the first argument to unsig is the rate in ms:;
+#X obj 25 94 unsig~ 10;
+#X floatatom 25 118 5 0 0 0 - - - 0;
+#X floatatom 94 118 5 0 0 0 - - - 0;
+#X obj 94 94 unsig~ 1000;
+#X obj 24 55 osc~ 1.5;
+#X connect 1 0 2 0;
+#X connect 4 0 3 0;
+#X connect 5 0 1 0;
+#X connect 5 0 4 0;
+#X coords 0 272 1 271 50 50 0;
